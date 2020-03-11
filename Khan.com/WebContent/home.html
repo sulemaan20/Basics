@@ -1,0 +1,289 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }
+
+</style>
+</head>
+
+<style>
+.example1 {
+ height: 50px;	
+ overflow: hidden;
+ position: relative;
+}
+.example1 h3 {
+ font-size: 3em;
+ color: limegreen;
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ margin: 0;
+ line-height: 50px;
+ text-align: center;
+ /* Starting position */
+ -moz-transform:translateX(100%);
+ -webkit-transform:translateX(100%);	
+ transform:translateX(100%);
+ /* Apply animation to this element */	
+ -moz-animation: example1 15s linear infinite;
+ -webkit-animation: example1 15s linear infinite;
+ animation: example1 15s linear infinite;
+}
+/* Move it (define the animation) */
+@-moz-keyframes example1 {
+ 0%   { -moz-transform: translateX(100%); }
+ 100% { -moz-transform: translateX(-100%); }
+}
+@-webkit-keyframes example1 {
+ 0%   { -webkit-transform: translateX(100%); }
+ 100% { -webkit-transform: translateX(-100%); }
+}
+@keyframes example1 {
+ 0%   { 
+ -moz-transform: translateX(100%); /* Firefox bug fix */
+ -webkit-transform: translateX(100%); /* Firefox bug fix */
+ transform: translateX(100%); 		
+ }
+ 100% { 
+ -moz-transform: translateX(-100%); /* Firefox bug fix */
+ -webkit-transform: translateX(-100%); /* Firefox bug fix */
+ transform: translateX(-100%); 
+ }
+}
+</style>
+
+<!-- HTML -->	
+<div class="example1">
+<h3>manuu.ac.in </h3>
+</div>
+
+
+
+<body>
+<div class="navbar">
+  <a href="home.html">Home</a>
+ 
+
+     <div class="dropdown">
+    <button class="dropbtn">Administration 
+      <i class=></i>
+    </button>
+    <div class="dropdown-content">
+       <a href="registrar.html">Registrar office</a>
+       <a href="finance.html">Finance office</a>
+       <a href="proct.html">Proctor office </a>
+       <a href="borden.html">Borden office </a>
+    </div>
+  </div>    
+
+ <div class="dropdown">
+    <button class="dropbtn">Academics 
+      <i class=></i>
+    </button>
+    <div class="dropdown-content">
+       <a href="registration.html">School of CS</a>
+       <a href="login.html">School of Mmnt</a>
+       <a href="login.html">School of Social </a>
+       <a href="login.html">School of Art </a>
+    </div>
+  </div>  
+
+<div class="dropdown">
+    <button class="dropbtn">Examinations 
+      <i class=></i>
+    </button>
+    <div class="dropdown-content">
+       <a href="controller.html">Controller of Examination</a>
+       <a href="register.html">Results</a>
+      
+    </div>
+  </div>  
+ 
+<div class="dropdown">
+    <button class="dropbtn">Registration 
+      <i class=></i>
+    </button>
+    <div class="dropdown-content">
+       <a href="sreg.html">Student</a>
+       <a href="areg.html">Admin</a>
+       <a href="freg.html">Faculty</a>
+    </div>
+  </div> 
+
+<div class="dropdown">
+    <button class="dropbtn">Update 
+      <i class=></i>
+    </button>
+    <div class="dropdown-content">
+       <a href="sreg.html">Student</a>
+       <a href="areg.html">Admin</a>
+       <a href="freg.html">Faculty</a>
+    </div>
+  </div> 
+<a href="About us.html">About us</a>
+</div>
+</body>
+</html>
+
+<section align="center">
+<iframe width="500" height="200"
+name="frameBody" src="carousel.html">
+</iframe>
+</section>  
+
+<section align="center">
+<iframe width="300" height="200"
+name="frameBody" src="login.html">
+</iframe>
+</section> 
+
+<br><br>
+<style>
+.example1 {
+ height: 50px;	
+ overflow: hidden;
+ position: relative;
+}
+.example1 h3 {
+ font-size: 3em;
+ color: limegreen;
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ margin: 0;
+ line-height: 50px;
+ text-align: center;
+ /* Starting position */
+ -moz-transform:translateX(100%);
+ -webkit-transform:translateX(100%);	
+ transform:translateX(100%);
+ /* Apply animation to this element */	
+ -moz-animation: example1 15s linear infinite;
+ -webkit-animation: example1 15s linear infinite;
+ animation: example1 15s linear infinite;
+}
+/* Move it (define the animation) */
+@-moz-keyframes example1 {
+ 0%   { -moz-transform: translateX(100%); }
+ 100% { -moz-transform: translateX(-100%); }
+}
+@-webkit-keyframes example1 {
+ 0%   { -webkit-transform: translateX(100%); }
+ 100% { -webkit-transform: translateX(-100%); }
+}
+@keyframes example1 {
+ 0%   { 
+ -moz-transform: translateX(100%); /* Firefox bug fix */
+ -webkit-transform: translateX(100%); /* Firefox bug fix */
+ transform: translateX(100%); 		
+ }
+ 100% { 
+ -moz-transform: translateX(-100%); /* Firefox bug fix */
+ -webkit-transform: translateX(-100%); /* Firefox bug fix */
+ transform: translateX(-100%); 
+ }
+}
+</style>
+
+<!-- HTML -->	
+<div class="example1">
+<h3>www.gmail.com </h3>
+</div>
+<br>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: red;
+   color: white;
+   text-align: center;
+}
+</style>
+</head>
+<body>
+
+<div class="footer">
+ <i> &copy; copyright 2017 <br>
+faculty | Convocation |contact
+</div>
+
+</body>
+</html> 
+
+</body>
+</HTML>
